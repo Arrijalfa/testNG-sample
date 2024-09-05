@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-08-27T08:12:41 WIB" name="Data Provider" finished-at="2024-08-27T08:12:41 WIB" duration-ms="305">
+    <groups>
+    </groups>
+    <test started-at="2024-08-27T08:12:41 WIB" name="Unit Test" finished-at="2024-08-27T08:12:41 WIB" duration-ms="145">
+      <class name="com.testng.dataprovider.dataProviderParameterExample">
+        <test-method signature="scenario1(java.lang.String)[pri:0, instance:com.testng.dataprovider.dataProviderParameterExample@564fabc8]" started-at="2024-08-27T08:12:41 WIB" name="scenario1" data-provider="scenarioData" finished-at="2024-08-27T08:12:41 WIB" duration-ms="28" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Common scenario data]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- scenario1 -->
+        <test-method signature="scenario2(java.lang.String)[pri:0, instance:com.testng.dataprovider.dataProviderParameterExample@564fabc8]" started-at="2024-08-27T08:12:41 WIB" name="scenario2" data-provider="scenarioData" finished-at="2024-08-27T08:12:41 WIB" duration-ms="3" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Common scenario data]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- scenario2 -->
+        <test-method signature="scenario3(java.lang.String)[pri:0, instance:com.testng.dataprovider.dataProviderParameterExample@564fabc8]" started-at="2024-08-27T08:12:41 WIB" name="scenario3" data-provider="scenarioData" finished-at="2024-08-27T08:12:41 WIB" duration-ms="3" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Common scenario data]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- scenario3 -->
+      </class> <!-- com.testng.dataprovider.dataProviderParameterExample -->
+    </test> <!-- Unit Test -->
+    <test started-at="2024-08-27T08:12:41 WIB" name="IntegrationLevel" finished-at="2024-08-27T08:12:41 WIB" duration-ms="10">
+      <class name="com.testng.dataprovider.dataProviderIntegrationExample">
+        <test-method signature="integrationTest(java.lang.String)[pri:0, instance:com.testng.dataprovider.dataProviderIntegrationExample@557caf28]" started-at="2024-08-27T08:12:41 WIB" name="integrationTest" data-provider="testType" finished-at="2024-08-27T08:12:41 WIB" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Integration test data]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- integrationTest -->
+      </class> <!-- com.testng.dataprovider.dataProviderIntegrationExample -->
+    </test> <!-- IntegrationLevel -->
+    <test started-at="2024-08-27T08:12:41 WIB" name="AcceptanceLevel" finished-at="2024-08-27T08:12:41 WIB" duration-ms="7">
+      <class name="com.testng.dataprovider.dataProviderAcceptanceExample">
+        <test-method signature="acceptanceTest(java.lang.String)[pri:0, instance:com.testng.dataprovider.dataProviderAcceptanceExample@c730b35]" started-at="2024-08-27T08:12:41 WIB" name="acceptanceTest" data-provider="testType" finished-at="2024-08-27T08:12:41 WIB" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Acceptance test data]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- acceptanceTest -->
+      </class> <!-- com.testng.dataprovider.dataProviderAcceptanceExample -->
+    </test> <!-- AcceptanceLevel -->
+  </suite> <!-- Data Provider -->
+</testng-results>
